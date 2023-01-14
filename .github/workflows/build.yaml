@@ -30,4 +30,4 @@ jobs:
           REPOS_FILE: https://raw.githubusercontent.com/Shin-kyoto/autoware_deb_test2/main/autoware.repos
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
-          SBUILD_CONF: VERBOSE
+          SBUILD_CONF: $verbose = 1;
